@@ -1,0 +1,100 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    /* Fuente amigable para niños */
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.titulo {
+    font-size: 36px;
+    color: #00D4FF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dificultad {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .card {
+    width: 450px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0E103D; /* Fondo azul oscuro */
+    border: 5px solid #00D4FF; /* Borde azul brillante */
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar elementos horizontalmente */
+    justify-content: center; 
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    color: #00D4FF; /* Texto azul brillante */
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .card p {
+       /* Estilos para los párrafos de la Galaxia */
+       font-size: 16px;
+       color: #BBDEF0; /* Texto azul claro */
+       text-align: center;
+       line-height: 1.4;
+       margin-bottom: 10px;
+  }
+  
+  .btn-seleccionar {
+    background-color: #00D4FF; /* Botón azul brillante */
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+    margin: 30px 160px;
+    text-align: center;
+  }
+
+  .btn-seleccionar a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .btn-seleccionar:hover {
+    background-color: #0096C7; /* Botón azul más oscuro */
+    transform: scale(1.05); 
+  }
+  

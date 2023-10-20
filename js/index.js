@@ -8,7 +8,7 @@ function botonJugar(){
         }, 3000)
     }else{
         localStorage.setItem("jugador", nombreUsuario.value)
-        location.href = "pagina1.html"
+        location.href = "niveles.html"
     }
     return false
 }
