@@ -6,6 +6,15 @@ const btnOcultarCalcu = document.getElementById('ocultarCalcu');
 const areaTrabajo = document.getElementById("areaTrabajo")
 const nombreJugador = document.getElementById("nombreJugador")
 
+const btnTogglePlaneta1 = document.getElementById('togglePlaneta1');
+const planet1 = document.querySelector('.mundos');
+let planet1Visible = false;
+
+
+const btnComienzaAventura = document.getElementById('comienzaAventura');
+const galaxia1 = document.querySelector('.galaxia1');
+
+
 /* variables  */
 let astro = null;
 let planetasArray = []
@@ -123,6 +132,23 @@ function iniciarJuego(){
   astro.mostrar();
 }
 
+//visualizar la galaxia
+btnComienzaAventura.addEventListener("click", function () {
+  galaxia1.style.display = 'none';
+});
+
+//visibilidad del primer planeta
+function togglePlaneta1Visibility() {
+  if (planet1Visible) {
+    planet1.style.display = 'none';
+    planet1Visible = false;
+  } else {
+    planet1.style.display = 'block';
+    planet1Visible = true;
+  }
+}
+
+btnTogglePlaneta1.addEventListener("click", togglePlaneta1Visibility);
 
 
 
