@@ -54,11 +54,15 @@ input[type="submit"]:hover {
 }
 
 .button {
+
     display: inline-block;
-    background-color: #ff9900;
-    color: #ffffff;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     padding: 15px 30px;
-    margin: 15px;
     border: none;
     border-radius: 10px;
     font-size: 20px;
@@ -67,7 +71,7 @@ input[type="submit"]:hover {
 }
 
 .button:hover {
-    background-color: #ff6600;
+    background-color: #ff5e5b;
 }
 
 @keyframes parpadeo {  
