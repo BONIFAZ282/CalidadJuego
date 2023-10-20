@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../css/nave.css">
+    <link rel="stylesheet" href="../css/calculadora.css">
+    <title>Interfaces Combinadas</title>
+</head>
+
+<body>
+    <div id="nombreJugador">
+        asdfsdf
+    </div>
+    <div id="areaTrabajo">
+
+    </div>
+    <div class="botones">
+        <button id="moveToPrev"><i class="fa-solid fa-chevron-left"></i> Anterior</button>
+        <button id="moveToNext"><i class="fa-solid fa-chevron-right"></i> Siguiente</button>
+        |
+        <button id="mostrarCalcu">Mostrar Calcu</button>
+        <button id="ocultarCalcu">Ocultar Calcu</button>
+    </div>
+
+
+    <div id="calculator">
+        <h2 class="title">¡Aprende Matemáticas!</h2>
+        <div class="display">
+            <span id="num1"></span>
+            <span id="operacion"></span>
+            <span id="num2"></span>
+            <span> = </span>
+            <input type="text" id="respuesta_usuario">
+            <button id="corregir" onclick="corregir()">Corregir</button>
+        </div>
+        <div class="operators">
+            <button id="suma" onclick="btnSumar()"><i class="fas fa-plus"></i></button>
+            <button id="resta" onclick="btnResta()"><i class="fas fa-minus"></i></button>
+            <button id="producto" onclick="btnProducto()"><i class="fas fa-times"></i></button>
+            <button id="division" onclick="btnDivision()"><i class="fas fa-divide"></i></button>
+        </div>
+        <div id="msj_correccion"></div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/calculadora.js"></script>
+    <script src="../js/nave.js"></script>
+</body>
+
+</html>

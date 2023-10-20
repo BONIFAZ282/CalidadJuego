@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/fondo.jpg');
+    font-family: 'Fredoka One', cursive;
+  }
+  
+#nombreJugador
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 45px;
+  text-align: center;
+  color: white;
+  line-height: 45px;
+  font-size: 2em;
+}
+
+#areaTrabajo {
+  position: absolute;
+  background-color: transparent;
+  border: 5px white solid;;
+}
+  
+.astronauta {
+  position: absolute;
+  width: 130px;
+  height: 150px;
+  background-image: url('../img/astronauta_130x150.png');
+  transition: 3s ease-in-out;
+}
+  
+  .bounce {
+    animation: bounce 3s ease-in-out infinite ;
+  }
+
+  
+  
+
+  .planeta { 
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-image: url('../img/planeta_150x150.png');
+    animation: spin 4s linear infinite;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    line-height: 150px;
+  }
+
+  /* temporal botones para mover la nave */
+  .botones {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;;
+    text-align: center;
+  }
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes bounce { 
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  
+} 
+
