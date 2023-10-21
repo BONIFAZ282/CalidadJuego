@@ -9,24 +9,6 @@
         "objectFit": "cover"
     },
     {
-        "categoria": "division",
-        "pregunta": "¿Cuánto es 10 / 2?",
-        "respuesta": "5",
-        "incorrecta1": "3",
-        "incorrecta2": "10",
-        "incorrecta3": "2",
-        "objectFit": "cover"
-    },
-    {
-        "categoria": "multiplicación",
-        "pregunta": "¿Cuánto es 5 * 3?",
-        "respuesta": "15",
-        "incorrecta1": "8",
-        "incorrecta2": "12",
-        "incorrecta3": "2",
-        "objectFit": "cover"
-    },
-    {
         "categoria": "suma",
         "pregunta": "¿Cuánto es 6 - 1?",
         "respuesta": "5",
@@ -52,22 +34,6 @@
         "incorrecta3": "2"
     },
     {
-        "categoria": "multiplicación",
-        "pregunta": "¿Cuánto es 4 * 3?",
-        "respuesta": "12",
-        "incorrecta1": "7",
-        "incorrecta2": "10",
-        "incorrecta3": "2"
-    },
-    {
-        "categoria": "división",
-        "pregunta": "¿Cuánto es 16 / 4?",
-        "respuesta": "4",
-        "incorrecta1": "8",
-        "incorrecta2": "2",
-        "incorrecta3": "6"
-    },
-    {
         "categoria": "suma",
         "pregunta": "¿Cuánto es 9 + 6?",
         "respuesta": "15",
@@ -82,22 +48,6 @@
         "incorrecta1": "10",
         "incorrecta2": "6",
         "incorrecta3": "9"
-    },
-    {
-        "categoria": "multiplicación",
-        "pregunta": "¿Cuánto es 2 * 9?",
-        "respuesta": "18",
-        "incorrecta1": "12",
-        "incorrecta2": "7",
-        "incorrecta3": "15"
-    },
-    {
-        "categoria": "división",
-        "pregunta": "¿Cuánto es 20 / 5?",
-        "respuesta": "4",
-        "incorrecta1": "10",
-        "incorrecta2": "3",
-        "incorrecta3": "6"
     },
     {
         "categoria": "suma",

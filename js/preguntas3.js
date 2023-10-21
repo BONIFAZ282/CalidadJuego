@@ -3,7 +3,7 @@ let mostrar_pantalla_juego_términado = true;
 let reiniciar_puntos_al_reiniciar_el_juego = true;
 
 window.onload = function () {
-  base_preguntas = readText("../json/preguntas-facil.json");
+  base_preguntas = readText("../json/preguntas-dificil.json");
   interprete_bp = JSON.parse(base_preguntas);
   escogerPreguntaAleatoria();
 };

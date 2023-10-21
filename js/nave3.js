@@ -7,22 +7,9 @@ const areaTrabajo = document.getElementById("areaTrabajo")
 const nombreJugador = document.getElementById("nombreJugador")
 
 const btnTogglePlaneta1 = document.getElementById('togglePlaneta1');
-const btnTogglePlaneta2 = document.getElementById('togglePlaneta2');
-const btnTogglePlaneta3 = document.getElementById('togglePlaneta3');
-const btnTogglePlaneta4 = document.getElementById('togglePlaneta4');
 const btnTogglePregunta = document.getElementById('togglePregunta');
-
 const planet1 = document.querySelector('.mundos');
-const planet2 = document.querySelector('.mundos2');
-const planet3 = document.querySelector('.mundos3');
-const planet4 = document.querySelector('.mundos4');
-
-
 let planet1Visible = false;
-let planet2Visible = false;
-let planet3Visible = false;
-let planet4Visible = false;
-
 let preguntaVisible = false;
 
 
@@ -33,7 +20,7 @@ const galaxia1 = document.querySelector('.galaxia1');
 /* variables  */
 let astro = null;
 let planetasArray = []
-let numeroplanetas = 8;
+let numeroplanetas = 18;
 let index_planeta = -1;
 
 
@@ -176,42 +163,7 @@ function togglePlaneta1Visibility() {
   }
 }
 
-function togglePlaneta2Visibility() {
-  if (planet2Visible) {
-    planet2.style.display = 'none';
-    planet2Visible = false;
-  } else {
-    planet2.style.display = 'block';
-    planet2Visible = true;
-  }
-}
-
-function togglePlaneta3Visibility() {
-  if (planet3Visible) {
-    planet3.style.display = 'none';
-    planet3Visible = false;
-  } else {
-    planet3.style.display = 'block';
-    planet3Visible = true;
-  }
-}
-
-function togglePlaneta4Visibility() {
-  if (planet4Visible) {
-    planet4.style.display = 'none';
-    planet4Visible = false;
-  } else {
-    planet4.style.display = 'block';
-    planet4Visible = true;
-  }
-}
-
-
-//PARECER PLANETAS
 btnTogglePlaneta1.addEventListener("click", togglePlaneta1Visibility);
-btnTogglePlaneta2.addEventListener("click", togglePlaneta2Visibility);
-btnTogglePlaneta3.addEventListener("click", togglePlaneta3Visibility);
-btnTogglePlaneta4.addEventListener("click", togglePlaneta4Visibility);
 
 
 
