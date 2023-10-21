@@ -32,15 +32,37 @@
         <button id="ocultarCalcu">Ocultar Calcu</button>
         |
         <button id="togglePlaneta1">Planeta1</button>
+        |
+        <button id="togglePregunta">Pregunta</button>
 
     </div>
 
 
+    <!-- PREGUNTAS -->
+    <div class="contenedor_preguntas" id="pregunt">
+        <div class="puntaje" id="puntaje">
+
+        </div>
+        <div class="encabezado">
+            <div class="categoria" id="categoria">
+            </div>
+            <div class="numero" id="numero"></div>
+            <div class="pregunta" id="pregunta">
+            </div>
+            <img src="#" class="imagen" id="imagen">
+        </div>
+        <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+        <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+        <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+        <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+    </div>
+
     <div class="galaxia1">
-        <h2>Nos encontramos en la galaxia 1</h2>
+        <h2>Nos encontramos en el sistema Solar</h2>
         <div class="contenido">
             <div class="descripcion">
-                <p>¡La Galaxia está en peligro y necesita tu valentía! Debes cruzar todos los planetas para salvarlos y
+                <p>¡El sistema Solar está en peligro y necesita tu valentía! Debes cruzar todos los planetas para
+                    salvarlos y
                     recopilar datos secretos de cada uno. ¿Estás listo para la aventura intergaláctica?</p>
             </div>
         </div>
@@ -50,10 +72,10 @@
     </div>
 
 
-
+    <!---------------------- INFORMACIÓN DE LOS PLANETAS ---------------------->
 
     <div class="mundos" id="planeta1">
-        <h2>Planeta Marte</h2>
+        <h2>4° Planeta liberado: Marte</h2>
         <div class="contenido">
             <img src="../img/marte.png" alt="Marte">
             <div class="descripcion">
@@ -61,11 +83,8 @@
                     Pero, ¿sabías que también es conocido como el "planeta de los extraterrestres"? 😄</p>
             </div>
         </div>
-        <p>Distancia del Sol: 227.9 millones de kilómetros. ¡Es un viaje largo!</p>
-        <p>Diámetro: 6,779 km. ¡Es más pequeño que la Tierra, pero aún así, un planeta increíble!</p>
-        <p>Masa: 0.107 veces la masa de la Tierra. ¡Marte es como el hermano pequeño del planeta Tierra!</p>
-        <!-- Agrega más información interesante sobre Marte aquí -->
     </div>
+
 
     <div id="calculator">
         <h2 class="title">¡Aprende Matemáticas!</h2>
@@ -86,13 +105,11 @@
         <div id="msj_correccion"></div>
     </div>
 
-
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="../js/nave.js"></script>
     <script src="../js/calculadora.js"></script>
     <script src="../js/sonidos.js"></script>
+    <script src="../js/preguntas.js"></script>
 
 </body>
 
