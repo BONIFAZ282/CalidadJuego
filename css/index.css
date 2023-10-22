@@ -9,35 +9,41 @@ body {
 
 #logo {
     width: 300px;
-    height: 300px;
-    background-color: #0E103D;
-    border: 5px solid #00D4FF;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    background-color: transparent; /* Quita el color de fondo */
+    border: none; /* Quita el borde */
+    box-shadow: none; /* Quita la sombra */
     border-radius: 50%;
-    margin: 40px auto;
+    margin: 20px auto; /* Reduce el margen superior */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    animation: spin 4s linear infinite;
 }
+
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
 
+
+#planet-image {
+    width: 200px; /* Ajusta el tamaño del planeta */
+}
+
+
 #login-form {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7); /* Ajusta la opacidad del fondo */
     color: #ffffff;
     border-radius: 20px;
-    padding: 40px;
+    padding: 30px; /* Ajusta el espacio interior */
     width: 400px;
-    margin: 0 auto;
+    margin: 20px auto; /* Reduce el margen superior */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
+
 #login-form h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -61,12 +67,12 @@ input[type="submit"]:hover {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    padding: 15px 30px;
+    padding: 10px 20px;
     border: none;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
     transition: background-color 0.3s ease;
 }
 
@@ -124,7 +130,7 @@ input[type="submit"]:hover {
     transform: translateY(-50%);
     width: 200px;
     border-radius: 50%;
-    margin-left: 450px;
+    margin-left: 400px;
 }
 
 .imagen-derecha {
@@ -134,5 +140,5 @@ input[type="submit"]:hover {
     transform: translateY(-50%);
     width: 200px;
     border-radius: 50%;
-    margin-right: 450px;
+    margin-right: 400px;
 }
